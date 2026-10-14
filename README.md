@@ -43,7 +43,7 @@ O `autoexec.cfg` não controla vídeo, driver nem Windows. Abaixo está o que é
 
 ## Windows
 
-- Plano de energia: Alto desempenho
+- Plano de energia: ``` Alto desempenho powercfg /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c ```
 - Modo de Jogo: Ativado
 - Jogos → Capturas → Gravar o que aconteceu: Desativado
 
