@@ -1,5 +1,3 @@
--nojoy -freq 180 +exec autoexec.cfg
-
 # Configurações do CS2 fora do autoexec
 
 O `autoexec.cfg` não controla vídeo, driver nem Windows. Abaixo está o que é configurado à mão.
