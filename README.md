@@ -1,0 +1,1 @@
+-nojoy -freq 180 +exec autoexec.cfg
