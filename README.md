@@ -59,3 +59,16 @@ Opções de inicialização:
 
 - Autoexec: `D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg`
 - Vídeo: `C:\Program Files (x86)\Steam\userdata\<SteamID>\730\local\cfg\cs2_video.txt`
+
+## Impedir que o vídeo resete
+
+O NVIDIA App com otimização automática ligada sobrescreve o `cs2_video.txt` (volta para 16:9 e gráficos altos).
+
+1. NVIDIA App → Gráficos → ⋮ → desligar a otimização automática de jogos.
+2. Deixar o `cs2_video.txt` como somente leitura:
+
+```
+attrib +r "C:\Program Files (x86)\Steam\userdata\<SteamID>\730\local\cfg\cs2_video.txt"
+```
+
+Para mudar o vídeo: `attrib -r` no arquivo, ajustar no jogo, fechar o CS2 e rodar `attrib +r` de novo.
